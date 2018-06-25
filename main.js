@@ -113,7 +113,7 @@ app.on('ready', function()  {
   autoUpdater.checkForUpdatesAndNotify();
   setInterval(() => {
     autoUpdater.checkForUpdatesAndNotify()
-  }, 10000)
+  }, 60000)
 });
 //-------------------------------------------------------------------
 // Auto updates - Option 2 - More control
